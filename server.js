@@ -33,6 +33,12 @@ app.get("/cloud", (req, res) => {
   );
 });
 
+app.get("/minecraft", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://discord.gg/horizion"/>`
+  );
+});
+
 app.get("/tutorial", (req, res) => {
   res.send(
     `<meta http-equiv="refresh" content="0; URL=https://youtu.be/6u8ejTFytNY"/>`
