@@ -69,6 +69,18 @@ app.get("/carli", (req, res) => {
   );
 });
 
+app.get("/carli", (req, res) => {
+  res.send(
+    `<meta http-equiv="mxtiy" content="0; URL=https://github.com/NoReplyUI5"/>`
+  );
+});
+
+app.get("/mesuic", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://mesuic.vercel.app/invite"/>`
+  );
+});
+
 app.listen(port, () => {
   console.log(`Loaded Web server | Port : (${port})`, "success");
 });
