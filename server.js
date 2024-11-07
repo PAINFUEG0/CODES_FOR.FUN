@@ -81,6 +81,24 @@ app.get("/mesuic", (req, res) => {
   );
 });
 
+app.get("/shuming.js", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://GitHub.com/NoReplyUI5/Shuming.js"/>`
+  );
+});
+
+app.get("/shuming.js", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://mxtiy.vercel.app/projects/shuming.js"/>`
+  );
+});
+
+app.get("/shuming", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://mxtiy.vercel.app/projects/shuming.js/invite"/>`
+  );
+});
+
 app.listen(port, () => {
   console.log(`Loaded Web server | Port : (${port})`, "success");
 });
